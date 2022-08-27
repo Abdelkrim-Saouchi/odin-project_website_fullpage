@@ -38,10 +38,21 @@ ul {
 }
 
 .section-one {
+    padding: 150px 200px;
+    background-color: #1F2937;
     display: flex;
+    gap: 3rem;
+    
 }
 
 img {
     width: 300px;
     height: auto;
+    flex: auto;
 }
+
+.description {
+    flex: 0 1 auto;
+}
+
+
