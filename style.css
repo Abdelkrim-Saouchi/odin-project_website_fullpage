@@ -175,4 +175,46 @@ h2 {
     align-self: flex-end;
 }
 
+/* section-four */
+
+.section-four {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.section-four .call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 48px 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.section-four .call * {
+    margin: 0;
+    padding: 0;
+}
+
+.section-four .call button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+.section-four .call div h3 {
+    font-weight:bolder;
+}
+
+.section-four .call div p {
+    font-size: smaller;
+}
+
 
