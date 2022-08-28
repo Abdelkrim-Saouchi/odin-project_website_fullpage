@@ -125,7 +125,9 @@ button {
 h2 {
     margin-top: 0;
     margin-bottom: 30px;
-    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bolder;
 }
 
 .card img {
