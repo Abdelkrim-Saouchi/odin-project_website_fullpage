@@ -51,13 +51,20 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    align-items: center;
     
 }
 
+.container {
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
 img {
-    min-width: 400px;
-    min-height: auto;
+    width: 700px;
+    height: 500px;
     flex: 1;
 }
 
