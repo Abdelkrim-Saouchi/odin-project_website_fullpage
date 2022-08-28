@@ -50,18 +50,19 @@ ul {
     padding: 150px 200px;
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
     gap: 3rem;
     
 }
 
 img {
-    width: 300px;
-    height: auto;
-    flex: auto;
+    min-width: 400px;
+    min-height: auto;
+    flex: 1;
 }
 
 .description {
-    flex: 0 1 auto;
+    flex: 1;
 }
 
 h1 {
@@ -74,6 +75,7 @@ h1 {
 p {
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
 button {
@@ -83,6 +85,7 @@ button {
     font-weight: 700;
     padding: 8px 32px;
     border-radius: 10px;
+
 }
 
 
