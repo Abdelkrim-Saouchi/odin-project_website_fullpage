@@ -56,19 +56,21 @@ ul {
 }
 
 .container {
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     align-items: flex-start;
     gap: 2rem;
 }
 
 img {
-    width: 700px;
-    height: 500px;
+    max-width: 50%;
+    max-height: auto;
     flex: 1;
 }
 
 .description {
+    max-width: 50%;
+    max-height: auto;
     flex: 1;
 }
 
